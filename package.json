@@ -1,0 +1,80 @@
+{
+  "name": "stock-app",
+  "productName": "Stock App",
+  "private": true,
+  "version": "2.0.0",
+  "description": "",
+  "author": "Tokochi",
+  "license": "MIT",
+  "main": "dist/electron/main/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && electron-builder"
+  },
+  "engines": {
+    "node": ">=14.17.0"
+  },
+  "dependencies": {
+    "@syncfusion/ej2": "^20.2.36",
+    "@syncfusion/ej2-base": "^20.2.36",
+    "@syncfusion/ej2-popups": "^20.2.36",
+    "@syncfusion/ej2-react-base": "^20.2.36",
+    "@syncfusion/ej2-react-buttons": "^20.2.36",
+    "@syncfusion/ej2-react-calendars": "^20.2.36",
+    "@syncfusion/ej2-react-charts": "^20.2.36",
+    "@syncfusion/ej2-react-dropdowns": "^20.2.36",
+    "@syncfusion/ej2-react-grids": "^20.2.36",
+    "@syncfusion/ej2-react-inplace-editor": "^20.2.38",
+    "@syncfusion/ej2-react-inputs": "^20.2.36",
+    "@syncfusion/ej2-react-navigations": "^20.2.36",
+    "@syncfusion/ej2-react-notifications": "^20.2.45",
+    "@syncfusion/ej2-react-popups": "^20.2.36",
+    "@syncfusion/ej2-react-schedule": "^20.2.36",
+    "@syncfusion/ej2-react-splitbuttons": "^20.2.36",
+    "cldr-data": "^36.0.1",
+    "dialog": "^0.3.1",
+    "electron-store": "^8.0.1",
+    "install": "^0.13.0",
+    "json-file-encrypt": "^2.1.2",
+    "moment": "^2.29.3",
+    "mongoose": "^6.4.0",
+    "react-error-boundary": "^3.1.4",
+    "react-router-dom": "^6.3.0",
+    "styled-components": "^5.3.5",
+    "systeminformation": "^5.12.6",
+    "systemjs-plugin-json": "^0.3.0",
+    "to-words": "^3.3.0",
+    "uuid": "^8.3.2",
+    "zustand": "^4.0.0-rc.1"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.2",
+    "@vitejs/plugin-react": "^2.0.0",
+    "autoprefixer": "^10.4.7",
+    "electron": "^19.0.3",
+    "electron-builder": "^23.0.3",
+    "postcss": "^8.4.14",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-flatpickr": "^3.10.13",
+    "react-hotkeys-hook": "^3.4.7",
+    "react-spring": "^9.5.2",
+    "react-timer-hook": "^3.0.5",
+    "react-to-print": "^2.14.7",
+    "react-transition-group": "^4.4.5",
+    "tailwindcss": "^3.1.6",
+    "vite": "^3.0.0",
+    "vite-plugin-electron": "^0.4.9"
+  },
+  "env": {
+    "VITE_DEV_SERVER_HOST": "127.0.0.2",
+    "VITE_DEV_SERVER_PORT": 7778
+  },
+  "packageManager": "yarn@3.2.3"
+}
