@@ -3,13 +3,13 @@ import "./css/style.css";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Sidebar from "./component/layout/Sidebar";
 import Navbar from "./component/layout/Navbar";
-// import Home from "./pages/Home";
+import Home from "./pages/Home";
 import Students from "./pages/Students";
 import Attendance from "./pages/Attendance";
 import Teachers from "./pages/Teachers";
 import Classes from "./pages/Classes";
 import Calendar from "./pages/Calendar";
-// import Report from "./pages/Report";
+import Report from "./pages/Report";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import AddAccount from "./pages/AddAccount";
@@ -41,8 +41,8 @@ const App = () => {
 
           <Routes>
             <Route element={<PrivateRoute />}>
-              {/* <Route path="/" element={<Report />} />
-              <Route path="/report" element={<Report />} /> */}
+              <Route path="/" element={<Report />} />
+              <Route path="/report" element={<Report />} />
               <Route path="/students" element={<Students />} />
               <Route path="/membership" element={<Membership />} />
               <Route path="/membershiplist" element={<MembershipList />} />
