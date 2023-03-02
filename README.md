@@ -10,25 +10,27 @@ A School Management built with Electron, Tailwind, React, Syncfusion, Zustand, M
 
 ![Add-User](https://github.com/tokochi/school-management/blob/master/img/add-acount.png)
 
-![Cashier-Closed](https://github.com/tokochi/school-management/blob/master/img/invoices.png)
+![Cashier-Closed](https://github.com/tokochi/school-management/blob/master/img/invoice.png)
 
-![Cashier](https://github.com/tokochi/school-management/blob/master/img/sales.png)
+![Cashier](https://github.com/tokochi/school-management/blob/master/img/add-student.png)
 
-![Alerts](https://github.com/tokochi/school-management/blob/master/img/report.png)
+![Alerts](https://github.com/tokochi/school-management/blob/master/img/students.png)
 
-![Products](https://github.com/tokochi/school-management/blob/master/img/notification.png)
+![Products](https://github.com/tokochi/school-management/blob/master/img/teachers.png)
 
-![Sale](https://github.com/tokochi/school-management/blob/master/img/cashier.png)
+![Sale](https://github.com/tokochi/school-management/blob/master/img/classes.png)
 
-![Sale](https://github.com/tokochi/school-management/blob/master/img/add-product.png)
+![Sale](https://github.com/tokochi/school-management/blob/master/img/add-classes.png)
+
+![Payment](https://github.com/tokochi/school-management/blob/master/img/schedular.png)
 
 ![Sale](https://github.com/tokochi/school-management/blob/master/img/activities.png)
 
 ![Discount](https://github.com/tokochi/school-management/blob/master/img/settings.png)
 
-![Payment](https://github.com/tokochi/school-management/blob/master/img/users.png)
+![Discount](https://github.com/tokochi/school-management/blob/master/img/users.png)
 
-![Backup](https://github.com/tokochi/school-management/blob/master/img/backup.png)
+
 
 ## About this Project
 
@@ -97,6 +99,8 @@ This Project supports the following operations:
 
 - Print students/classes/payments
 
+- Export Excel students/classes/payments
+
 - Alerts, Notifications about: students in debit, Budgets out of date and absences.
 
 
@@ -111,7 +115,9 @@ Management of :
 
 - Classes
 
-- books
+- Schedular
+
+- Books/Programs
 
 - Budgets
 
